@@ -13,6 +13,13 @@ body {
    margin: 0;
    padding: 0;
    overflow-x: hidden;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove tap highlight on mobile */
+* {
+   -webkit-tap-highlight-color: transparent;
 }
 
 /* Add padding top to account for fixed navbar */
@@ -20,7 +27,14 @@ main {
    padding-top: 80px;
 }
 
-/* Smooth scrolling */
+/* Smooth scrolling with mobile optimization */
 html {
    scroll-behavior: smooth;
+   -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 768px) {
+   main {
+      padding-top: 65px;
+   }
 }
