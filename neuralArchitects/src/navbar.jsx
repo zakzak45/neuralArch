@@ -25,13 +25,13 @@ const Navbar = () => {
           <div className="logo-wrapper">
             <img
               src={logo}
-              alt="Neural Architectures Logo"
+              alt="Neural Architects Logo"
               className="logo"
             />
             <div className="logo-glow"></div>
           </div>
           <span className="site-name">
-            Neural<span className="site-name-accent">Architectures</span>
+            Neural<span className="site-name-accent"> Architects</span>
           </span>
         </div>
 

@@ -303,8 +303,8 @@ const Home = () => {
                         >
                             {/* Hidden field for Web3Forms - Replace with your access key */}
                             <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
-                            <input type="hidden" name="subject" value="New Contact Form Submission from Neural Architectures" />
-                            <input type="hidden" name="from_name" value="Neural Architectures Website" />
+                            <input type="hidden" name="subject" value="New Contact Form Submission from Neural Architects" />
+                            <input type="hidden" name="from_name" value="Neural Architects Website" />
 
                             {formSubmitted && (
                                 <div className="form-success-message">

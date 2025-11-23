@@ -13,7 +13,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="footer-section footer-brand">
             <h3 className="footer-logo">
-              Neural<span className="footer-logo-accent">Architectures</span>
+              Neural<span className="footer-logo-accent"> Architects</span>
             </h3>
             <p className="footer-description">
               Pioneering game development, computer vision AI, and embedded systems. Bringing your digital visions to life.
@@ -75,7 +75,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <div className="footer-divider"></div>
           <div className="footer-copyright">
-            <p>&copy; {currentYear} NeuralArchitectures. All rights reserved.</p>
+            <p>&copy; {currentYear} Neural Architects. All rights reserved.</p>
             <p className="footer-tagline">Building Games, Vision AI & Embedded Solutions.</p>
           </div>
         </div>
