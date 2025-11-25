@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./navbar.css";
 import logo from "../WhatsApp Image 2025-11-16 at 4.04.48 PM.jpeg";
 
@@ -37,11 +38,11 @@ const Navbar = () => {
 
         <nav className={`navbar-right ${mobileMenuOpen ? 'mobile-menu-open' : ''}`}>
           <ul className="nav-links">
-            <li><a href="#home" className="nav-link">Home</a></li>
-            <li><a href="#about" className="nav-link">About</a></li>
-            <li><a href="#projects" className="nav-link">Projects</a></li>
-            <li><a href="#blog" className="nav-link">Blog</a></li>
-            <li><a href="#contact" className="nav-link nav-link-cta">Contact</a></li>
+            <li><Link to="/" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Home</Link></li>
+            <li><a href="/#about" className="nav-link" onClick={() => setMobileMenuOpen(false)}>About</a></li>
+            <li><Link to="/projects" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Projects</Link></li>
+            <li><Link to="/blog" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Blog</Link></li>
+            <li><a href="/#contact" className="nav-link nav-link-cta" onClick={() => setMobileMenuOpen(false)}>Contact</a></li>
           </ul>
         </nav>
 

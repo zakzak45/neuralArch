@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 const Home = () => {
@@ -180,10 +181,11 @@ const Home = () => {
                 {/* Projects Grid */}
                 <div className="projects-grid">
                     {filteredProjects.map((project, index) => (
-                        <div
+                        <Link
+                            to="/projects"
                             key={project.id}
                             className="project-card"
-                            style={{ animationDelay: `${index * 0.1}s` }}
+                            style={{ animationDelay: `${index * 0.1}s`, textDecoration: 'none' }}
                         >
                             <div className="project-image-wrapper">
                                 <img src={project.image} alt={project.title} className="project-image" />
@@ -196,7 +198,7 @@ const Home = () => {
                                 <h3 className="project-title">{project.title}</h3>
                                 <p className="project-description">{project.description}</p>
                             </div>
-                        </div>
+                        </Link>
                     ))}
                 </div>
 
@@ -216,13 +218,11 @@ const Home = () => {
 
                 <div className="blog-grid">
                     {blogPosts.map((post, index) => (
-                        <a
-                            href={post.link}
+                        <Link
+                            to="/blog"
                             key={post.id}
                             className="blog-card"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ animationDelay: `${index * 0.15}s` }}
+                            style={{ animationDelay: `${index * 0.15}s`, textDecoration: 'none' }}
                         >
                             <div className="blog-card-header">
                                 <span className="blog-date">{post.date}</span>
@@ -234,7 +234,7 @@ const Home = () => {
                                 <span className="read-more">Read More</span>
                                 <span className="arrow">→</span>
                             </div>
-                        </a>
+                        </Link>
                     ))}
                 </div>
 

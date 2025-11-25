@@ -13,8 +13,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle at 20% 50%, rgba(102, 102, 241, 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 80% 80%, rgba(139, 92, 246, 0.1) 0%, transparent 50%);
+  background: radial-gradient(circle at 20% 50%, rgba(96, 165, 250, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(59, 130, 246, 0.1) 0%, transparent 50%);
   pointer-events: none;
   animation: gradientMove 15s ease-in-out infinite;
 }
@@ -61,7 +61,7 @@
 }
 
 .footer-logo-accent {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -86,8 +86,8 @@
   justify-content: center;
   width: 40px;
   height: 40px;
-  background: rgba(102, 102, 241, 0.1);
-  border: 1px solid rgba(102, 102, 241, 0.2);
+  background: rgba(96, 165, 250, 0.1);
+  border: 1px solid rgba(96, 165, 250, 0.2);
   border-radius: 10px;
   color: #cbd5e1;
   transition: all 0.3s ease;
@@ -95,11 +95,11 @@
 }
 
 .social-link:hover {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%);
   border-color: transparent;
   color: white;
   transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(102, 102, 241, 0.4);
+  box-shadow: 0 5px 15px rgba(96, 165, 250, 0.4);
 }
 
 .social-link svg {
@@ -143,7 +143,7 @@
   left: 0;
   width: 40px;
   height: 2px;
-  background: linear-gradient(90deg, #667eea, #764ba2);
+  background: linear-gradient(90deg, #60a5fa, #3b82f6);
   border-radius: 2px;
 }
 
@@ -173,7 +173,7 @@
   left: 0;
   width: 0;
   height: 1px;
-  background: linear-gradient(90deg, #667eea, #764ba2);
+  background: linear-gradient(90deg, #60a5fa, #3b82f6);
   transition: width 0.3s ease;
 }
 
@@ -196,7 +196,7 @@
   height: 1px;
   background: linear-gradient(90deg,
       transparent 0%,
-      rgba(102, 102, 241, 0.3) 50%,
+      rgba(96, 165, 250, 0.3) 50%,
       transparent 100%);
   margin-bottom: 2rem;
 }
