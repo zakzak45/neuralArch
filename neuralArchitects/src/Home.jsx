@@ -158,6 +158,36 @@ const Home = () => {
                 </div>
             </section>
 
+            {/* Our Approach Section */}
+            <section className="mission-vision-section">
+                <div className="mission-vision-container">
+                    <div className="section-header">
+                        <h2 className="section-title">Our Approach</h2>
+                        <p className="section-subtitle">Building solutions with the right tools for maximum impact</p>
+                    </div>
+
+                    <div className="mission-vision-grid">
+                        <div className="tech-mission-card">
+                            <h3 className="tech-name">AI & Automation</h3>
+                            <p className="tech-description">
+                                We leverage accessible, efficient programming to build intelligent systems that solve real-world problems.
+                                Our focus is on creating scalable solutions that bridge ideas and implementation, from rapid prototyping
+                                to production-ready applications in data science, computer vision, and automation.
+                            </p>
+                        </div>
+
+                        <div className="tech-mission-card">
+                            <h3 className="tech-name">Performance Engineering</h3>
+                            <p className="tech-description">
+                                For performance-critical systems, we utilize low-level control and optimization to deliver high-performance
+                                applications. From game engines to real-time simulations and embedded systems, we balance power with precision
+                                to create robust, efficient solutions that form the backbone of modern technology.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* Projects Section */}
             <section id="projects" className="projects-section">
                 <div className="section-header">
